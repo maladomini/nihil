@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker|Rubik+Mono+One&display=swap');
+
+/*font-family: 'Rubik Mono One', sans-serif;   solid striight
+font-family: 'Permanent Marker', cursive;	   fancy            
+font-family: 'Montserrat', sans-serif;		   text            */
+
+
+html 		   {min-height: 100%; background-image: linear-gradient(to bottom, black, #011C2F);}
+
+body		   { margin: 0; }
+
+div.mainheader {
+				margin: 0;
+				min-height: 50px;
+				min-width: 100%;
+				background-image: linear-gradient(to right, #355581, #006c92, #008291, #009480, #5ba367);
+				font-family: 'Rubik Mono One', sans-serif;
+				padding: 10px 0px 0px 50px;
+				}
+
+	span.h_main		{ color: white;
+					  font-weight: 400;
+					  margin: 20px 0px 10px 50px;
+					  font-size: 32px; }
+
+	
+div.mainimage {
+			   min-width: 100%;
+			   max-height: 670px;
+			  }
+
+	img.bg_1 {
+		 min-width: 100%;
+		 max-height: 570px;
+			 }
+
+
+
+
+div.maintext { 
+			   min-height: 800px;
+			   /*min-width: 80%;*/
+			   margin: -5% 15% 0% 15%;
+			   text-align: center;
+			   position: relative;
+			   background-image: linear-gradient(to bottom, #355581, #011C2F);
+
+
+			   color: white;
+			   font-family: 'Montserrat', sans-serif;
+			   font-size: 15px;
+			   letter-spacing: 3px;
+			   line-height: 25pt;
+			 }
+
+	span.header_text { color: white; font-family: 'Rubik Mono One', sans-serif; padding: 8%; font-weight: 200;}
+
+	p.lorem_ipsum_1 {padding: 2% 10% 5% 10%; font-size: 16px;}
+
+
+
+
+div.californiainsideout
+				 {
+				display: inline;
+				min-height: 130px;
+
+				 }
+
+	img.ico_main {
+				display: inherit;
+				margin-left:  35px; 
+				margin-right: 35px;
+				max-height:   128px;
+				max-width:    128px;
+					}
+
+	div.icons {
+				display: inherit;
+				margin-left:  35px; 
+				margin-right: 35px;
+				max-height:   164px;
+				max-width:    164px;
+					}
+
+	p.icons_text {
+				display:inline-block;
+				position:relative;
+				/*padding:1px;
+				border: 0px solid #c4c4c4;*/
+				margin: 15px 52px 0px 52px;
+				width:164px;
+				height:164px;
+				font-family: 'Permanent Marker', cursive;
+				font-size: 18px;
+				font-weight: 10;
+				letter-spacing: 2px;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.mainfooter {
+
+				opacity: 0.7;
+				bottom: 0;
+				position: relative;
+				min-width: 100%;
+				background-image: linear-gradient(to right, #03284c, #5ba367, #03284c);
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				padding: 13px 0px 5px 50px; 
+				text-align: center;
+				font-size: 15px;
+				font-weight: 600; 
+
+				border-top-left-radius: 210% 410%;
+  				border-top-right-radius: 210% 410%;
+
+}
