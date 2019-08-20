@@ -11,15 +11,15 @@ body { margin: 0;}
 
 div.mainheader {
 				min-height: 50px;
-				min-width: 100%;
+				width: 100%;
 				background-image: linear-gradient(to right, #355581, #006c92, #008291, #009480, #5ba367);
 				font-family: 'Rubik Mono One', sans-serif;
-				padding: 20px 0px 0px 150px;
 				}
 
 	span.h_main	{ 
 				color: white;
 				font-size: 32px;
+				margin: 32px 0px 32px 88px;
 				}
 
 div.mainimage {
@@ -64,6 +64,8 @@ div.californiainsideout
 				  font-family: 'Permanent Marker', cursive;
 				  font-size: 18px;
 				  text-align: center;
+				  margin-top: 74px;
+				  margin-bottom: 74px;  
 				 }
 
 	img.ico_main {
@@ -92,7 +94,7 @@ div.mainfooter {
 				background-image: linear-gradient(to right, #03284c, #5ba367, #03284c);
 				color: white;
 				font-family: 'Montserrat', sans-serif;
-				padding: 13px 13px 5px 13px; 
+				padding: 13px 0px 5px 0px;
 				text-align: center;
 				font-size: 15px;
 				font-weight: 600; 
