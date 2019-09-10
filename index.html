@@ -3,6 +3,8 @@
 <head>
 	<title>Welcome to ÜM!</title>
 	<link rel="stylesheet" type="text/css" href="understyles.css">
+	<!-- rippler CSS -->
+	<link rel="stylesheet" href="./css/rippler.min.css">
 </head>
 <body>
 
@@ -14,13 +16,19 @@
 
 
 <div class="maintext"> 
-
+<br>
 	<span class="header_text"> <h1> header </h1> </span> 
 
 	<p class="lorem_ipsum_1">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel dignissim purus, vitae venenatis orci. Suspendisse sed mi a turpis maximus convallis. Pellentesque feugiat non ligula at bibendum. Mauris maximus eleifend dolor sed elementum. Donec sit amet libero eu lectus pharetra faucibus. Maecenas ligula quam, blandit non purus sed, venenatis volutpat sapien. Integer tincidunt magna vitae elementum aliquam. Donec porttitor malesuada nulla, sed egestas mi facilisis quis. Nunc vel consequat dolor. Morbi vulputate dui et diam dignissim, vel ornare metus tempus. Sed sollicitudin sollicitudin ex, sit amet fermentum dui malesuada eget. Phasellus dapibus hendrerit mi vitae viverra.
 
 	</p>
+
+
+	<div class="rippler rippler-default">
+		<img src="clicko.png">
+	</div>
+
 
 	<div class="californiainsideout">
 
@@ -37,6 +45,23 @@
 
 
 <div class="mainfooter"> <p> About ÜM | | contact: nickink@protonmail.com</p> </div>
+
+	<!-- vendor js -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<!-- rippler js -->
+	<script src="./dist/js/jquery.rippler.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+  		$(".rippler").rippler({
+		    effectClass      :  'rippler-effect'
+		    ,effectSize      :  0.000002      // Default size (width & height)
+		    ,addElement      :  'div'   // e.g. 'svg'(feature)
+		    ,duration        :  1400
+		  });
+});
+</script>
 
 </body>
 </html>

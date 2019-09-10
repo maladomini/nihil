@@ -38,12 +38,10 @@ div.mainimage {
 div.maintext { 
 			   min-height: 800px;
 			   /*min-width: 80%;*/
-			   margin: -15% 20% 0% 20%;
+			   margin: -15% 17% 0% 17%;
 			   text-align: center;
 			   position: relative;
 			   background-image: linear-gradient(to bottom, #355581, #011C2F);
-
-
 			   color: white;
 			   font-family: 'Montserrat', sans-serif;
 			   font-size: 15px;
