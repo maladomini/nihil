@@ -29,7 +29,7 @@ div.mainimage {
 
 	img.bg_1 {
 		 min-width: 100%;
-		 max-height: 600px;
+		 max-height: 900px;
 			 }
 
 
@@ -41,12 +41,13 @@ div.maintext {
 			   margin: -15% 17% 0% 17%;
 			   text-align: center;
 			   position: relative;
-			   background-image: linear-gradient(to bottom, #355581, #011C2F);
+			   background-image: linear-gradient(to bottom, #0a0c0e, #011C2F);
 			   color: white;
 			   font-family: 'Montserrat', sans-serif;
 			   font-size: 15px;
 			   letter-spacing: 3px;
 			   line-height: 25pt;
+			   border-radius: 25px;
 			 }
 
 	span.header_text { color: white; font-family: 'Rubik Mono One', sans-serif; padding: 8%; font-weight: 200;}
@@ -100,3 +101,7 @@ div.mainfooter {
   				border-top-right-radius: 210% 410%;
 			   }
 
+div.rippler.rippler-default { background-image: linear-gradient(to bottom, #0a0c0e, #011C2F, #0a0c0e); 
+							  margin: 4% 15% 4% 15%; 
+							  border-radius: 360px;
+							  text-align: center; }
