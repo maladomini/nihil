@@ -33,8 +33,6 @@ div.mainheader {
 			 }*/
 
 
-
-
 div.maintext { 
 			   min-height: 800px;
 			   /*min-width: 80%;*/
@@ -95,18 +93,17 @@ div.mainfooter {
 				font-family: 'Montserrat', sans-serif;
 				padding: 13px 0px 5px 0px;
 				text-align: center;
-				font-size: 15px;
+				font-size: 12px;
 				font-weight: 600; 
 				border-top-left-radius: 210% 410%;
   				border-top-right-radius: 210% 410%;
   				margin-top: 148px; 
 			   }
 
-div.rippler.rippler-default { background-image: linear-gradient(to bottom, #0a0c0e, #000000, #0a0c0e); 
-							  margin: 4% 15% 4% 15%;
-							  border-radius: 180px;
-							  text-align: center;
-							  font-size: 64px;
-							  height: 100px; }
-
-	p.pe {margin-top: 4%; }
+div.empty_div { background-image: linear-gradient(to bottom, #0a0c0e, #000000, #0a0c0e); 
+				margin: 0% 18% 0% 18%;
+				border-radius: 180px;
+				text-align: center;
+				font-size: 64px;
+				height: 100px; 
+			  }
