@@ -3,20 +3,21 @@
 html      {margin:  0;
 		   text-align: center;
 		    height: 100%;
-		    background: rgba(71,255,188,1);
+/*		    background: rgba(71,255,188,1);
 			background: -moz-linear-gradient(top, rgba(71,255,188,1) 0%, rgba(0,84,133,1) 100%);
 			background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71,255,188,1)), color-stop(100%, rgba(0,84,133,1)));
 			background: -webkit-linear-gradient(top, rgba(71,255,188,1) 0%, rgba(0,84,133,1) 100%);
 			background: -o-linear-gradient(top, rgba(71,255,188,1) 0%, rgba(0,84,133,1) 100%);
 			background: -ms-linear-gradient(top, rgba(71,255,188,1) 0%, rgba(0,84,133,1) 100%);
 			background: linear-gradient(to bottom, rgba(71,255,188,1) 0%, rgba(0,84,133,1) 100%);
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47ffbc', endColorstr='#005485', GradientType=0 );
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47ffbc', endColorstr='#005485', GradientType=0 );*/
+			background-color: rgb(46, 47, 51);
 			background-repeat:no-repeat;
 			background-attachment:fixed;
 		  }
 
 
-#centraldiv {background-color: rgba(55, 91, 112, 0.6);
+#centraldiv {background-color: rgba(117, 118, 128, .8 );
 			 height: 100%; 
 			 width:	 50%; 
 			 margin: 1% auto 3% auto;
