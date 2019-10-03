@@ -2,29 +2,35 @@
 <html>
 <head>
 	<title>Cards</title>
-	<link rel="stylesheet" type="text/css" href="cardsstyle.css">
+	<link rel="stylesheet" type="text/css" href="style/cardsstyle.css">
 </head>
 <body>
-<div class="mainheader"> <span class="h_main"> ÜM </span> <a class="homelink" href="./">main</a> </div>
+<div class="mainheader"> <span class="h_main"> ÜM </span> <a class="homelink" href="./"><img class="backbutton" src="img/back.png"></a> </div>
 
 <div class="field">
-
+<!-- 
 	<div class="secondcont">
 		xXx
 	</div>
 
 		<div class="container">
-		<div class="card"> <p class="cardname"> AAA </p></div>
+		<div class="card" id ="cardentity"> <p class="cardname"> AAA </p></div>
 		<div class="card"> <p class="cardname"> BBB </p></div>
 		<div class="card"> <p class="cardname"> CCC </p></div>
-		<p> <button class="pubu" id="push">PUSH</button> </p>
+		<p> <button class="pubu" id="push" onclick="animation()">PUSH</button> </p>
 	</div>
 
 	<div class="secondcont"> 
 		zZz
 	</div>
 
+ -->
 
+<div class="card" id ="cardentity"> <p class="cardname"> </p></div>
+
+<p> <button class="pubu" id="push" onclick="animation()">PUSH</button> </p>
 </div>
+
+<script type="text/javascript" src="script/cardsanim.js"></script>
 </body>
 </html>
