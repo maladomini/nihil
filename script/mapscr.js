@@ -1,5 +1,5 @@
 // Hint-fox animation
-var foxes = new Array ("fox_waves.png", "fox.png", "fox_talks.png");
+var foxes = new Array ("img/fox_waves.png", "img/fox.png", "img/fox_talks.png");
 var index = 0;
 
 $("#centraldiv").click(function rotateFoxes (){
