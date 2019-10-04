@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker|Rubik+Mono+One&display=swap');
+
+html {background-image: linear-gradient(to bottom, black, #011C2F); background-repeat: no-repeat; min-height: 100%;}
+
+body { margin: 0; font-family: 'Montserrat', sans-serif; font-size: 20px; color: white;
+       }
+
+div.mainheader {
+        min-height: 50px;
+        width: 100%;
+        background-image: linear-gradient(to right, #355581, #006c92, #008291, #009480, #5ba367);
+        font-family: 'Rubik Mono One', sans-serif;
+        }
+
+  span.h_main {
+        position: absolute; 
+        color: white;
+        font-size: 32px;
+        margin: 12px 0px 12px 0px;
+        left: 4%;
+        }
+
+  .homelink {position: absolute; right: 4%; margin-top: 14px; }
+
+
+.field	{
+         position: relative;
+ 			   background-color: #d7ebf5;
+ 			   border-radius: 25px;
+ 			   width: 300px;
+ 			   height: 300px;
+         margin: 6% auto;
+         }
+
+.field > div{ float:left; margin-left:0px;}
+
+/*.container 	  {
+			   width: 150px;
+			   height: 300px;
+			   background-color: #222324;
+			   border-radius: 25px;
+         margin-top: 3%;
+         padding-top: 3%;  
+}
+
+.card 	 {position: absolute;
+          width: 100px;
+          height: 250px;
+          background-color: #edeff2;
+          border: solid black 1px;
+          border-radius: 15px;
+          margin: 10% auto auto 3.2%;
+      	  }
+
+	.cardname {margin-top: 120px; }
+
+.secondcont { width: 150px; height: 300px;background-color: #222324; border-radius: 25px;}*/
+
+.pubu {height: 34px; width: 72px; 
+       background-color: black; 
+       color: white; text-align: center; 
+       border-radius: 25px; margin: 2% 44%; 
+       font-family: 'Montserrat', sans-serif;
+       outline: none;}
+
+.card    {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background-color: black;
+          border: solid black 1px;
+          border-radius: 15px;
+          margin: 0;
+          }
+.backbutton {max-height: 24px; max-width: 24px;}
