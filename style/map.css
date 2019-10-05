@@ -11,7 +11,7 @@ html      {margin:  0;
 			background: -ms-linear-gradient(top, rgba(71,255,188,1) 0%, rgba(0,84,133,1) 100%);
 			background: linear-gradient(to bottom, rgba(71,255,188,1) 0%, rgba(0,84,133,1) 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47ffbc', endColorstr='#005485', GradientType=0 );*/
-			background-color: rgb(46, 47, 51);
+			background-image: linear-gradient(to bottom, black, #011C2F);
 			background-repeat:no-repeat;
 			background-attachment:fixed;
 		  }
