@@ -12,12 +12,10 @@ div.mainheader {
         font-family: 'Rubik Mono One', sans-serif;
         }
 
-  span.h_main {
-        position: absolute; 
+  span.h_main { 
         color: white;
-        font-size: 32px;
-        margin: 12px 0px 12px 0px;
-        left: 4%;
+        font-size: 28px;
+        margin: 12px 0px 12px 88px;
         }
 
   .homelink {position: absolute; right: 4%; margin-top: 14px; }
