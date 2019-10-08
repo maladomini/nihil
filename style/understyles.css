@@ -10,6 +10,7 @@ html {background-image: linear-gradient(to bottom, black, #011C2F);}
 body { margin: 0;}
 
 div.mainheader {
+				padding-top: 20px;
 				min-height: 50px;
 				width: 100%;
 				background-image: linear-gradient(to right, #355581, #006c92, #008291, #009480, #5ba367);
@@ -19,7 +20,7 @@ div.mainheader {
 	span.h_main	{ 
 				color: white;
 				font-size: 28px;
-				margin: 12px 0px 12px 88px;
+				margin-left: 10%;
 				}
 
 /*div.mainimage {
